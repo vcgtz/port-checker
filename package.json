@@ -1,5 +1,5 @@
 {
-  "name": "port-checker",
+  "name": "@vcgtz/port-checker",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
