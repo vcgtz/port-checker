@@ -1,6 +1,6 @@
 {
   "name": "@vcgtz/port-checker",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "CLI tool to check if a port is available on localhost",
   "type": "module",
   "bin": {
