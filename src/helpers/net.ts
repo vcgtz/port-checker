@@ -1,6 +1,6 @@
 import net from 'node:net';
 
-export const isPortAvailable = (port: number): Promise<boolean> => {
+export const isPortAvailable = (port: number, host: string): Promise<boolean> => {
   return new Promise((resolve) => {
     const socket = new net.Socket();
 
@@ -21,6 +21,6 @@ export const isPortAvailable = (port: number): Promise<boolean> => {
       resolve(true);
     });
 
-    socket.connect(port, 'localhost');
+    socket.connect(port, host);
   });
 };
